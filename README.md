@@ -1,5 +1,5 @@
 # Ex09 Event Registration Web Application
-## Date:06.05.24
+## Date:30.05.2025
 
 ## AIM:
 To design, develop and deploy a web application for event registration.
@@ -31,48 +31,75 @@ Publish the website in the given URL.
 
 ## DESIGN TOOL:
 Figma
-## Programme:
-```
-<div style="width: 360px; height: 640px; position: relative; background: #DC1F1F">
-  <img style="width: 300px; height: 45px; left: 30px; top: 50px; position: absolute" src="https://via.placeholder.com/300x45" />
-  <div style="width: 257px; height: 40px; left: 48px; top: 118px; position: absolute; background: #1017C4"></div>
-  <div style="left: 102px; top: 124px; position: absolute; color: white; font-size: 24px; font-family: Inter; font-weight: 400; word-wrap: break-word">SPORTS DAY<br/></div>
-  <div style="width: 210px; height: 50px; left: 75px; top: 461px; position: absolute; background: #0F17DE"></div>
-  <div style="width: 122px; height: 29px; left: 125px; top: 471px; position: absolute; color: black; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">LOGIN</div>
-  <div style="width: 245px; height: 52px; left: 55px; top: 539px; position: absolute; background: #3D0FF6"></div>
-  <div style="width: 216px; height: 51px; left: 88px; top: 551px; position: absolute; color: black; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">REGIESTER</div>
-</div>
-<img style="width: 237px; height: 245px" src="https://via.placeholder.com/237x245" />
-<div style="width: 360px; height: 640px; position: relative; background: #1D0202">
-  <div style="left: 39px; top: 47px; position: absolute; color: white; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">REGISTER NOW TO </div>
-  <div style="left: 44px; top: 109px; position: absolute; color: white; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">GET ANY EVENTS </div>
-  <div style="width: 340px; height: 40px; left: 32px; top: 174px; position: absolute; color: white; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">TO LEARN TRAINING </div>
-  <div style="left: 35px; top: 244px; position: absolute; color: white; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">SKILL DEVOLP</div>
-  <div style="width: 20px; height: 63px; left: 258px; top: 244px; position: absolute; color: white; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">E</div>
-  <div style="width: 245px; height: 50px; left: 58px; top: 320px; position: absolute; background: #CD1DDC"></div>
-  <div style="width: 245px; height: 58px; left: 58px; top: 328px; position: absolute; color: #C41717; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">REGISTER NOW</div>
-  <div style="left: 11px; top: 386px; position: absolute; color: white; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">NAME </div>
-  <div style="width: 171px; height: 39px; left: 132px; top: 386px; position: absolute; background: #D9D9D9"></div>
-  <div style="width: 129px; height: 49px; left: 11px; top: 432px; position: absolute; color: white; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">EMAIL</div>
-  <div style="width: 179px; height: 36px; left: 132px; top: 435px; position: absolute; background: #D9D9D9"></div>
-  <div style="width: 252px; height: 54px; left: 11px; top: 476px; position: absolute; color: white; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">DEPARTMENT</div>
-  <div style="width: 222px; height: 32px; left: 96px; top: 524px; position: absolute; background: #D9D9D9"></div>
-  <div style="width: 302px; height: 60px; left: 5px; top: 556px; position: absolute; color: white; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">MOBILE NUMBER</div>
-  <div style="width: 255px; height: 36px; left: 63px; top: 598px; position: absolute; background: #D9D9D9"></div>
-</div>
-<div style="width: 360px; height: 640px; position: relative; background: #17F212">
-  <div style="left: 71px; top: 66px; position: absolute; color: #EF2121; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">THANK YOU </div>
-  <div style="width: 326px; height: 72px; left: 22px; top: 126px; position: absolute; color: #D21FA0; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">FOR REGISTERING</div>
-  <div style="width: 288.49px; height: 0px; left: 30px; top: 331px; position: absolute; transform: rotate(-27.45deg); transform-origin: 0 0; border: 2px white solid"></div>
-  <div style="width: 257.77px; height: 0px; left: 59px; top: 461px; position: absolute; transform: rotate(-19.49deg); transform-origin: 0 0; border: 1px white solid"></div>
-  <div style="width: 257px; height: 31px; left: 50px; top: 486px; position: absolute; color: white; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">JOIN US AND </div>
-  <div style="width: 171px; height: 57px; left: 59px; top: 540px; position: absolute; color: white; font-size: 32px; font-family: Inter; font-weight: 400; word-wrap: break-word">HAVE FUN</div>
-  <div style="width: 315.33px; height: 0px; left: 307px; top: 562px; position: absolute; transform: rotate(166.80deg); transform-origin: 0 0; border: 1px #2D29E1 solid"></div>
-  <div style="width: 92px; height: 111px; left: 30px; top: 320px; position: absolute; background: #DA7A33; border-radius: 9999px"></div>
-</div>
-```
+
+## CODE:
+## HOME:
+''' 
+
+    <div style="width: 360px; height: 800px; position: relative; background: #DE1818">
+    <img style="width: 300px; height: 46.61px; left: 30px; top: 18px; position: absolute" src="https://via.placeholder.com/300x47" />
+    <img style="width: 300px; height: 46.61px; left: 30px; top: 18px; position: absolute" src="https://via.placeholder.com/300x47" />
+    <img style="width: 300px; height: 46.61px; left: 30px; top: 18px; position: absolute" src="https://via.placeholder.com/300x47" />
+    <img style="width: 300px; height: 46.61px; left: 30px; top: 18px; position: absolute" src="https://via.placeholder.com/300x47" />
+    <img style="width: 300px; height: 46.61px; left: 30px; top: 18px; position: absolute" src="https://via.placeholder.com/300x47" />
+    <img style="width: 300px; height: 46.61px; left: 30px; top: 18px; position: absolute" src="https://via.placeholder.com/300x47" />
+    <img style="width: 300px; height: 46.61px; left: 30px; top: 18px; position: absolute" src="https://via.placeholder.com/300x47" />
+    <div style="width: 217px; height: 41px; left: 72px; top: 696px; position: absolute; text-align: center; color: #0374F8; font-size: 36px; font-family: Irish Grover; font-weight: 400; word-wrap: break-word">REGISTER</div>
+    <div style="width: 360px; height: 78px; left: 0px; top: 98px; position: absolute; text-align: center; color: white; font-size: 36px; font-family: Irish Grover; font-weight: 400; word-wrap: break-word">DESTERIN’24</div>
+    <div style="width: 235px; height: 276px; left: 55px; top: 384px; position: absolute; text-align: center; color: white; font-size: 36px; font-family: Irish Grover; font-weight: 400; word-wrap: break-word">NATIONAL LEVEL <br/>TECHNICAL AND NON-TECHNICAL <br/>SYMPOSIUM</div>
+    <img style="width: 160px; height: 160px; left: -25px; top: 200px; position: absolute" src="https://via.placeholder.com/160x160" />
+    <img style="width: 171px; height: 159px; left: 219px; top: 201px; position: absolute" src="https://via.placeholder.com/171x159" />
+    </div>
+'''
+## LOGIN:
+'''
+
+    <div style="width: 360px; height: 800px; position: relative; background: #ED0000">
+    <img style="width: 300px; height: 46.61px; left: 30px; top: 18px; position: absolute" src="https://via.placeholder.com/300x47" />
+    <div style="left: 33px; top: 148px; position: absolute; color: white; font-size: 36px; font-family: Irish Grover; font-weight: 400; word-wrap: break-word">Email</div>
+    <div style="width: 282px; height: 42px; left: 30px; top: 223px; position: absolute; background: #D9D9D9"></div>
+    <div style="left: 41px; top: 378px; position: absolute; color: white; font-size: 36px; font-family: Irish Grover; font-weight: 400; word-wrap: break-word">Phone Number</div>
+    <div style="width: 291px; height: 48px; left: 39px; top: 495px; position: absolute; background: #D9D9D9"></div>
+    </div>
+'''
+## TECHNICAL EVENTS:
+'''
+
+    <div style="width: 360px; height: 800px; position: relative; background: #E00B0B">
+    <div style="width: 360px; height: 696px; left: 0px; top: 46px; position: absolute"><span style="color: white; font-size: 36px; font-family: Irish Grover; font-weight: 400; word-wrap: break-word">         <br/>        <br/>       EVENTS<br/><br/>TECHNICAL</span><span style="color: white; font-size: 70px; font-family: Irish Grover; font-weight: 400; word-wrap: break-word">:<br/></span><span style="color: white; font-size: 36px; font-family: Irish Grover; font-weight: 400; word-wrap: break-word"><br/>   PAPER-PRESENTATION<br/><br/>   HACKATHON<br/><br/>   POSTER MAKING<br/><br/>   BOARD-DESIGN</span></div>
+    <img style="width: 300px; height: 46.61px; left: 30px; top: 18px; position: absolute" src="https://via.placeholder.com/300x47" />
+    <div style="width: 14px; height: 22px; left: 16px; top: 364px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+    <div style="width: 13px; height: 31px; left: 16px; top: 487px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+    <div style="width: 14px; height: 26px; left: 8px; top: 580px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+    <div style="width: 14px; height: 26px; left: 8px; top: 668px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+    </div>
+'''
+
+## NON-TECHNICAL:
+'''
+
+        <div style="width: 360px; height: 800px; position: relative; background: #EF1515">
+        <div style="width: 351px; height: 750px; left: -5px; top: 28px; position: absolute; color: white; font-size: 36px; font-family: Irish Grover; font-weight: 400; word-wrap: break-word">   <br/><br/>           EVENTS<br/><br/><br/>NON-TECHNICAL:<br/><br/>   CONNECTIONS<br/><br/>   IPL QUIZ<br/><br/>   PS4 AND PS5<br/><br/>   YELLOWTAPE</div>
+        <img style="width: 300px; height: 46.61px; left: 30px; top: 16px; position: absolute" src="https://via.placeholder.com/300x47" />
+        <div style="width: 19px; height: 27px; left: 0px; top: 443px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+        <div style="width: 16px; height: 23px; left: 0px; top: 535px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+        <div style="width: 18px; height: 29px; left: 0px; top: 617px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+        <div style="width: 19px; height: 21px; left: 0px; top: 350px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+        </div>
+'''
+## FINAL-PAGE:
+'''
+
+    <div style="width: 360px; height: 800px; padding-top: 17px; background: #E81313; flex-direction: column; justify-content: flex-end; align-items: center; gap: 53.39px; display: inline-flex">
+    <img style="width: 300px; height: 46.61px" src="https://via.placeholder.com/300x47" />
+    <div style="width: 360px; height: 683px; color: white; font-size: 36px; font-family: Irish Grover; font-weight: 400; word-wrap: break-word">       REGISTER <br/> FOR THE EVENTS AND ENJOY.<br/><br/>COME IN NEAT AND PROPER DRESS CODE<br/><br/><br/><br/><br/>       FOR MORE    <br/>    INFROMATION <br/><br/>       CONTACT  <br/>     8574397590</div>
+    </div>
+'''
+
+
+
 ## OUTPUT:
-![Screenshot 2024-05-06 135914](https://github.com/Rajkumar28072005/Figma/assets/144980101/91408b2f-bf04-4e8d-a824-2607a91c9afa)
+![Screenshot 2024-05-10 165420](https://github.com/rakshithaprakashkumar11/Figma/assets/150994181/0145a56a-efbe-4e3d-a818-337e2198c3c2)
 
 
 ## RESULT:
